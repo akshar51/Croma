@@ -1,3 +1,8 @@
+
+body{
+  background-color: #111 !important;
+}
+
 .navbar-brand img{
     width: 120px;
     height: 50px;
@@ -42,30 +47,49 @@
     object-fit: cover;
   }
 
-  .category-card {
-    background: linear-gradient(135deg, #292c3f, #3b3f58);
-    border-radius: 20px;
-    width: 120px;
-    height: 140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .category-icon {
-    width:100%;
-    height: 100%;
-    /* filter: invert(1); */
-  }
-
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
   }
 
-  body {
-    background-color: #111; /* Dark background like Croma */
+/* -------------------------CARD -------------------*/
+  .category-card {
+    min-width: 120px;
+    height: 140px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    /* background: #222; optional: background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
   }
+  
+  .category-icon {
+    width: 80%; 
+    height: 80%;
+    object-fit: contain; 
+  }
+
+#categoryScroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+.top-selling-card {
+  background-color: #111 !important;
+}
+
+.top-selling-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+  
+  
+
 
