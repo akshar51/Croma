@@ -3,10 +3,41 @@ body{
   background-color: #111 !important;
 }
 
+
 .navbar-brand img{
     width: 120px;
     height: 50px;
 }
+
+/* SIDE-MENU  */
+.sidebar-menu {
+  width: 300px;
+  background-color: #111;
+  height: 100vh;
+}
+
+.sidebar-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-menu a:hover {
+  color: #00d084;
+}
+
+.dropdown-toggle span {
+  transition: transform 0.3s ease;
+}
+
+.dropdown-toggle[aria-expanded="true"] span {
+  transform: rotate(90deg);
+}
+
+.collapse a {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
 
 /* Search Input styling */
 .search-input {
