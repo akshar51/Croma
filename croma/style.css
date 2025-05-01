@@ -120,3 +120,16 @@ body{
   border: none !important;
 }
 
+/* EXCLUSIVE */
+
+.exl-box{
+  height: 140px;
+  width: 140px;
+}
+
+.exl-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
