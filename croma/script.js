@@ -1,8 +1,8 @@
+//----------------------------- CATEGORY CAROUSEL-------------------  
 
   const categoryScroll = document.getElementById('categoryScroll');
   const prevBtn = document.getElementById('prevBtn');
   const nextBtn = document.getElementById('nextBtn');
-
   const scrollAmount = 200; // adjust scroll distance as needed
 
   prevBtn.addEventListener('click', () => {
@@ -19,6 +19,7 @@
     });
   });
 
+// -----------------------------BRAND CAROUSEL--------------------------
 
   const companyScroll = document.getElementById('companyScroll');
   const prevButton = document.getElementById('prevButton');
